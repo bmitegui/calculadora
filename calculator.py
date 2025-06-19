@@ -2,7 +2,7 @@ def add(a, b):
     result = a + b
     return result
 
-def sum_two_numbers(a, b):  # Duplicación
+def sum_two_numbers(a, b):
     result = a + b
     return result
 
@@ -20,8 +20,10 @@ def divide(a, b):
         return None
     return a / b
 
-# Inyección insegura (Security issue)
 def eval_user_input():
-    user_input = input("Enter expression: ")  # ⚠️ Esto es inseguro
-    result = eval(user_input)  # ⚠️ Eval de input sin validación
+    user_input = input("Enter expression: ") 
+    result = eval(user_input)
     print("Result:", result)
+
+
+print("This is a calculator module.This is a calculator module. This is a calculator module. This is a calculator module. This is a calculator module. This is a calculator module. This is a calculator module.This is a calculator module. This is a calculator module. This is a calculator module.")

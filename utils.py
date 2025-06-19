@@ -1,7 +1,7 @@
 def greet(name):
     print(f"Hello {name}")
 
-def greet_again(name):  # Duplicación
+def greet_again(name):
     print(f"Hello {name}")
 
 def unused_helper():
