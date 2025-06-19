@@ -1,18 +1,11 @@
 def add(a, b):
-    result = a + b
-    return result
-
-def sum_two_numbers(a, b):
-    result = a + b
-    return result
+    return a + b
 
 def subtract(a, b):
-    result = a - b
-    return result
+    return a - b
 
 def multiply(a, b):
-    result = a * b
-    return result
+    return a * b
 
 def divide(a, b):
     if b == 0:
@@ -22,66 +15,10 @@ def divide(a, b):
 
 def eval_user_input():
     user_input = input("Enter expression: ") 
-    result = eval(user_input)
+    result = eval(user_input)  # ⚠️ Aún es inseguro, pero lo dejamos si estás haciendo pruebas
     print("Result:", result)
 
-
-print("This is a calculator module.This is a calculator module. This is a calculator module. This is a calculator module. This is a calculator module. This is a calculator module. This is a calculator module.This is a calculator module. This is a calculator module. This is a calculator module.")
-def add(a, b):
-    result = a + b
-    return result
-
-def sum_two_numbers(a, b):
-    result = a + b
-    return result
-
-def subtract(a, b):
-    result = a - b
-    return result
-
-def multiply(a, b):
-    result = a * b
-    return result
-
-def divide(a, b):
-    if b == 0:
-        print("Division by zero is not allowed.")
-        return None
-    return a / b
-
-def eval_user_input():
-    user_input = input("Enter expression: ") 
-    result = eval(user_input)
-    print("Result:", result)
-
-
-print("This is a calculator module.This is a calculator module. This is a calculator module. This is a calculator module. This is a calculator module. This is a calculator module. This is a calculator module.This is a calculator module. This is a calculator module. This is a calculator module.")
-def add(a, b):
-    result = a + b
-    return result
-
-def sum_two_numbers(a, b):
-    result = a + b
-    return result
-
-def subtract(a, b):
-    result = a - b
-    return result
-
-def multiply(a, b):
-    result = a * b
-    return result
-
-def divide(a, b):
-    if b == 0:
-        print("Division by zero is not allowed.")
-        return None
-    return a / b
-
-def eval_user_input():
-    user_input = input("Enter expression: ") 
-    result = eval(user_input)
-    print("Result:", result)
-
-
-print("This is a calculator module.This is a calculator module. This is a calculator module. This is a calculator module. This is a calculator module. This is a calculator module. This is a calculator module.This is a calculator module. This is a calculator module. This is a calculator module.")
+# Mensaje informativo único
+print(
+    "This is a calculator module. " * 5  # imprime el mensaje 5 veces sin duplicarlo manualmente
+)
