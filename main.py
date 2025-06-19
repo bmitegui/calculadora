@@ -1,17 +1,17 @@
 import calculator
+import utils
 
 def main():
-    print("Add:", calculator.add(5, 3))
-    print("Subtract:", calculator.subtract(10, 4))
-    print("Multiply:", calculator.multiply(2, 6))
-    print("Divide:", calculator.divide(10, 0))
+    calculator.eval_user_input()  # Security
 
-    # bad indentation
-    for i in range(3):
-        print("Number", i)
-      print("Looping...")
+    print("Add:", calculator.add(2, 3))
+    print("Divide:", calculator.divide(5, 0))  # Reliability: no manejo adecuado del error
 
-    x = 10 # unused variable
+    utils.greet("Alice")
+    utils.greet_again("Alice")
+
+    # No uso try/catch
+    file = open("nonexistent.txt", "r")  # Reliability: puede lanzar error y fallar app
 
 if __name__ == "__main__":
     main()
